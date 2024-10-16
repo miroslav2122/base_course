@@ -1,0 +1,1 @@
+from lec_3_my module import earsh mass
