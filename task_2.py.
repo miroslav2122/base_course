@@ -1,6 +1,16 @@
+import numpy as np
+import constants as sv
+
 h=100
 a =45
 β = 35
 g = 9,8
 
-V = ((g * h * ()))
+V = ((sv.g * np.tan(b)**2) / (2 * np.cos(a)**2 * (1 - np.tan(b))))**(1/2)
+print(v)
+
+T = 200
+e = 300
+
+N = (2/np.pi**(1/2)) * (sv.plank/(sv.k * T)**(3/2)) * sv.eiler**((-1)*sv.eiler/sv.k/T) * sv.eiler**(T/2)
+print(N)
