@@ -6,3 +6,9 @@ plt.plot(x, y, color='g', label='Graf 1', marker='o', ms=5)
 
 plt.xlabel('coord - x')
 plt.ylabel('coord - y')
+plt.legend()
+plt.title('Base')
+plt.grid()
+plt.axis('equal')
+
+plt.savefig('fig_1.png')
